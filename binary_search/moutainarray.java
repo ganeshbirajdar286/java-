@@ -1,6 +1,6 @@
 public  class moutainarray {
     public static void main(String[] args){
-        int arr[]={1, 2, 3, 4, 5, 3, 2};
+        int arr[]={1, 2, 3, 4,6, 5, 3, 2};
         int low = 1;
         int high = arr.length - 2; // the mountain array  will be for  length 3, 1 and last will be never mid
 

@@ -47,7 +47,7 @@ public class basic {
         System.out.println(ans);
         
         // if  you don't specify class,you can put anything inside l
-        ArrayList<Integer> l = new ArrayList();
+        ArrayList<Integer> l = new ArrayList<>();
         l.addAll(l1);
         System.out.println(l);
     }
