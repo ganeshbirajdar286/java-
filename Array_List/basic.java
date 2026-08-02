@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class basic {
     public static void main(String[] args) {
@@ -50,5 +51,12 @@ public class basic {
         ArrayList<Integer> l = new ArrayList<>();
         l.addAll(l1);
         System.out.println(l);
+
+
+        // i want to iterate through the list and print all the elements
+      Iterator<Integer> it = l.iterator();
+      while(it.hasNext()){  // hasnext() return true  if there is a next element in the list and goes to  the next element
+            System.out.println(it.next());  // it.next() return the next element list
+      }
     }
 }
