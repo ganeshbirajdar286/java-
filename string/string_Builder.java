@@ -7,5 +7,6 @@ public class string_Builder {
 
         System.out.println(String.valueOf(45).length());
         System.out.println(s.capacity());
+
     }
 }

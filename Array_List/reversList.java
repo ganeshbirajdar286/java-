@@ -13,7 +13,7 @@ public class reversList {
             i++;
             j--;
            }
-
+  
            System.out.println("reverse list for function"+list);
 
     }
